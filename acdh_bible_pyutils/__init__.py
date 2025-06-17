@@ -1,8 +1,9 @@
 import csv
+import re
 from pathlib import Path
 
 
-def get_bible_books() -> dict:
+def get_bible_lookup_map() -> dict:
     """
     Load and return Bible book information from a CSV file.
     Reads Bible book data from 'bible_books.csv' located in the same directory
@@ -29,4 +30,29 @@ def get_bible_books() -> dict:
     return bible_books
 
 
-BIBLE_BOOKS = get_bible_books
+BIBLE_BOOK_LOOKUP = get_bible_lookup_map()
+
+
+def extract_book_name(reference: str) -> str:
+    """
+    Extract book name from biblical reference string.
+
+    Args:
+        reference (str): Full biblical reference (e.g., "Lk. 19,41" or "2 Kings 2:23-24")
+
+    Returns:
+        str: Extracted book name
+
+    Examples:
+        >>> extract_book_name("Lk. 19,41")
+        'Lk.'
+        >>> extract_book_name("2 Kings 2:23-24")
+        '2 Kings'
+    """
+    pattern = r"^([1-4]\s*)?([A-Za-z]+\.?(?:\s+[A-Za-z]+)?)"
+    match = re.match(pattern, reference)
+    if match:
+        book = "".join(part for part in match.groups() if part)
+        # Clean up any extra spaces
+        return " ".join(book.split())
+    return ""

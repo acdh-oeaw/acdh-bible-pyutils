@@ -18,9 +18,15 @@ build-backend = "hatchling.build"
 
 [dependency-groups]
 dev = [
+    "jupyter>=1.1.1",
+    "pytest>=8.4.0",
+    "pytest-cov>=6.2.1",
     "ruff>=0.11.13",
 ]
-
+[tool.hatch.build]
+include = [
+    "acdh_bible_pyutils/*.csv",
+]
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
@@ -92,3 +98,7 @@ docstring-code-format = false
 # This only has an effect when the `docstring-code-format` setting is
 # enabled.
 docstring-code-line-length = "dynamic"
+
+
+[tool.pytest.ini_options]
+addopts = "--maxfail=1 --cov=acdh_bible_pyutils"
