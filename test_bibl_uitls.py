@@ -1,6 +1,5 @@
 from acdh_bible_pyutils import extract_book_name, get_book_from_bibl_ref
 
-
 TEST_CASES = [
     ("Lk. 19,41", "Lk"),
     ("Mt. 27,52", "Mt"),
