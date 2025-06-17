@@ -53,6 +53,5 @@ def extract_book_name(reference: str) -> str:
     match = re.match(pattern, reference)
     if match:
         book = "".join(part for part in match.groups() if part)
-        # Clean up any extra spaces
         return " ".join(book.split())
     return ""
