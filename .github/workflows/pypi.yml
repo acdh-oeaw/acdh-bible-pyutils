@@ -9,14 +9,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout repo
-      uses: actions/setup-python@v5
-    - name: Install the latest version of uv
+    - uses: actions/checkout@v4
+    - name: Install the latest version of uv and set the python version
       uses: astral-sh/setup-uv@v6
     - name: lookaround
-      run: |
-        pwd
-        ls
+      run: pwd
+    - name: foo
+      run: ls
+
     # - name: config
     #   run: |
     #     RELEASE=${GITHUB_REF##*/}
