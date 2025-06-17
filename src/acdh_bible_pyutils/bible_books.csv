@@ -1,0 +1,217 @@
+book,order,title_eng,title_deu,title_lat
+Gen,1,Genesis,Genesis,Genesis
+Genesis,1,Genesis,Genesis,Genesis
+Ex,2,Exodus,Exodus,Exodus
+Exodus,2,Exodus,Exodus,Exodus
+Lev,3,Leviticus,Levitikus,Leviticus
+Leviticus,3,Leviticus,Levitikus,Leviticus
+Numbers,4,Numbers,Numeri,Numeri
+Num,4,Numbers,Numeri,Numeri
+Numeri,4,Numbers,Numeri,Numeri
+Deut,5,Deuteronomy,Deuteronomium,Deuteronomium
+Deuteronomium,5,Deuteronomy,Deuteronomium,Deuteronomium
+Deuteronomy,5,Deuteronomy,Deuteronomium,Deuteronomium
+Jos,6,Joshua,Josua,Josue
+Joshua,6,Joshua,Josua,Josue
+Josue,6,Joshua,Josua,Josue
+Judges,7,Judges,Richter,Iudices
+Judg,7,Judges,Richter,Iudices
+Ruth,8,Ruth,Rut,Ruth
+1 Sam,9,1 Samuel,1. Samuel,1 Samuel
+1Sam,9,1 Samuel,1. Samuel,1 Samuel
+1 Samuel,9,1 Samuel,1. Samuel,1 Samuel
+Sam,9,1 Samuel,1. Samuel,1 Samuel
+2 Samuel,10,2 Samuel,2. Samuel,2 Samuel
+2Sam,10,2 Samuel,2. Samuel,2 Samuel
+2 Sam,10,2 Samuel,2. Samuel,2 Samuel
+1 Kings,11,1 Kings,1. Könige,1 Regum
+Reg,11,1 Kings,1. Könige,1 Regum
+1 Reg,11,1 Kings,1. Könige,1 Regum
+1Reg,11,1 Kings,1. Könige,1 Regum
+2 Kings,12,2 Kings,2. Könige,2 Regum
+2 Reg,12,2 Kings,2. Könige,2 Regum
+2Reg,12,2 Kings,2. Könige,2 Regum
+3 Reg,13,3 Kings,3. Könige,3 Regum
+3Reg,13,3 Kings,3. Könige,3 Regum
+4 Kings,14,4 Kings,4. Könige,4 Regum
+4Reg,14,4 Kings,4. Könige,4 Regum
+4 Reg,14,4 Kings,4. Könige,4 Regum
+1 Chronicles,15,1 Chronicles,1. Chronik,1 Paralipomenon
+1Par,15,1 Chronicles,1. Chronik,1 Paralipomenon
+Par,15,1 Chronicles,1. Chronik,1 Paralipomenon
+1 Par,15,1 Chronicles,1. Chronik,1 Paralipomenon
+2Par,16,2 Chronicles,2. Chronik,2 Paralipomenon
+2 Par,16,2 Chronicles,2. Chronik,2 Paralipomenon
+2 Chronicles,16,2 Chronicles,2. Chronik,2 Paralipomenon
+Esr,17,Ezra,Esra,Esdras
+Ezra,17,Ezra,Esra,Esdras
+1 Esdras,17,Ezra,Esra,Esdras
+Nehemiah,18,Nehemiah,Nehemia,Nehemias
+Neh,18,Nehemiah,Nehemia,Nehemias
+Nehemia,18,Nehemiah,Nehemia,Nehemias
+Tob,19,Tobit,Tobit,Tobias
+Tobit,19,Tobit,Tobit,Tobias
+Tobias,19,Tobit,Tobit,Tobias
+Jud,20,Judith,Judit,Iudith
+Jdt,20,Judith,Judit,Iudith
+Judith,20,Judith,Judit,Iudith
+Esther,21,Esther,Ester,Esther
+Esth,21,Esther,Ester,Esther
+Job,22,Job,Ijob,Iob
+Psalm,23,Psalms,Psalmen,Psalmi
+Psalms,23,Psalms,Psalmen,Psalmi
+Ps,23,Psalms,Psalmen,Psalmi
+Prov,24,Proverbs,Sprichwörter,Proverbia
+Proverbs,24,Proverbs,Sprichwörter,Proverbia
+Proverbia,24,Proverbs,Sprichwörter,Proverbia
+Koh,25,Ecclesiastes,Kohelet,Ecclesiastes
+Ecclesiastes,25,Ecclesiastes,Kohelet,Ecclesiastes
+Eccl,25,Ecclesiastes,Kohelet,Ecclesiastes
+Song,26,Song of Songs,Hoheslied,Canticum Canticorum
+Cantica,26,Song of Songs,Hoheslied,Canticum Canticorum
+Cant,26,Song of Songs,Hoheslied,Canticum Canticorum
+Song of Songs,26,Song of Songs,Hoheslied,Canticum Canticorum
+Sap,27,Wisdom,Weisheit,Sapientia
+Sapientia,27,Wisdom,Weisheit,Sapientia
+Wisdom of Solomon,27,Wisdom,Weisheit,Sapientia
+Sir,28,Sirach,Jesus Sirach,Ecclesiasticus
+Sirach,28,Sirach,Jesus Sirach,Ecclesiasticus
+Ecclesiasticus,28,Sirach,Jesus Sirach,Ecclesiasticus
+Isaiah,29,Isaiah,Jesaja,Isaias
+Is,29,Isaiah,Jesaja,Isaias
+Isaia,29,Isaiah,Jesaja,Isaias
+Jeremiah,30,Jeremiah,Jeremia,Ieremias
+Jer,30,Jeremiah,Jeremia,Ieremias
+Jeremia,30,Jeremiah,Jeremia,Ieremias
+Lamentations,31,Lamentations,Klagelieder,Lamentationes
+Lam,31,Lamentations,Klagelieder,Lamentationes
+Lamentationes,31,Lamentations,Klagelieder,Lamentationes
+Baruch,32,Baruch,Baruch,Baruch
+Bar,32,Baruch,Baruch,Baruch
+Ezechiel,33,Ezekiel,Ezechiel,Ezechiel
+Ez,33,Ezekiel,Ezechiel,Ezechiel
+Ezekiel,33,Ezekiel,Ezechiel,Ezechiel
+Daniel,34,Daniel,Daniel,Daniel
+Dan,34,Daniel,Daniel,Daniel
+Hosea,35,Hosea,Hosea,Osee
+Os,35,Hosea,Hosea,Osee
+Osee,35,Hosea,Hosea,Osee
+Joel,36,Joel,Joel,Ioel
+Amos,37,Amos,Amos,Amos
+Am,37,Amos,Amos,Amos
+Abdiam,38,Obadiah,Obadja,Abdias
+Abdias,38,Obadiah,Obadja,Abdias
+Abd,38,Obadiah,Obadja,Abdias
+Jon,39,Jonah,Jona,Ionas
+Jonah,39,Jonah,Jona,Ionas
+Jonas,39,Jonah,Jona,Ionas
+Mich,40,Micah,Micha,Micheas
+Michea,40,Micah,Micha,Micheas
+Micah,40,Micah,Micha,Micheas
+Nahum,41,Nahum,Nahum,Nahum
+Nah,41,Nahum,Nahum,Nahum
+Naum,41,Nahum,Nahum,Nahum
+Habakkuk,42,Habakkuk,Habakuk,Habacuc
+Hab,42,Habakkuk,Habakuk,Habacuc
+Habacuc,42,Habakkuk,Habakuk,Habacuc
+Soph,43,Zephaniah,Zefanja,Sophonias
+Sophonia,43,Zephaniah,Zefanja,Sophonias
+Zephaniah,43,Zephaniah,Zefanja,Sophonias
+Agg,44,Haggai,Haggai,Aggaeus
+Aggeus,44,Haggai,Haggai,Aggaeus
+Haggai,44,Haggai,Haggai,Aggaeus
+Zechariah,45,Zechariah,Sacharja,Zacharias
+Zach,45,Zechariah,Sacharja,Zacharias
+Zacharia,45,Zechariah,Sacharja,Zacharias
+Malachia,46,Malachi,Maleachi,Malachias
+Mal,46,Malachi,Maleachi,Malachias
+Malachi,46,Malachi,Maleachi,Malachias
+1 Maccabees,47,1 Maccabees,1. Makkabäer,1 Machabaeorum
+1Mac,47,1 Maccabees,1. Makkabäer,1 Machabaeorum
+1 Macc,47,1 Maccabees,1. Makkabäer,1 Machabaeorum
+Macc,47,1 Maccabees,1. Makkabäer,1 Machabaeorum
+1Macc,47,1 Maccabees,1. Makkabäer,1 Machabaeorum
+1 Mac,47,1 Maccabees,1. Makkabäer,1 Machabaeorum
+Mac,47,1 Maccabees,1. Makkabäer,1 Machabaeorum
+2 Maccabees,48,2 Maccabees,2. Makkabäer,2 Machabaeorum
+2 Mac,48,2 Maccabees,2. Makkabäer,2 Machabaeorum
+2Mac,48,2 Maccabees,2. Makkabäer,2 Machabaeorum
+2Macc,48,2 Maccabees,2. Makkabäer,2 Machabaeorum
+2 Macc,48,2 Maccabees,2. Makkabäer,2 Machabaeorum
+Mt,49,Matthew,Matthäus,Matthaeus
+Matthew,49,Matthew,Matthäus,Matthaeus
+Mark,50,Mark,Markus,Marcus
+Mc,50,Mark,Markus,Marcus
+Luke,51,Luke,Lukas,Lucas
+Lc,51,Luke,Lukas,Lucas
+Lk,51,Luke,Lukas,Lucas
+John,52,John,Johannes,Ioannes
+Jn,52,John,Johannes,Ioannes
+Joh,52,John,Johannes,Ioannes
+Acts,53,Acts,Apostelgeschichte,Actus Apostolorum
+Act,53,Acts,Apostelgeschichte,Actus Apostolorum
+Rom,54,Romans,Römer,Romanos
+Romans,54,Romans,Römer,Romanos
+1 Corinthians,55,1 Corinthians,1. Korinther,1 Corinthios
+1 Cor,55,1 Corinthians,1. Korinther,1 Corinthios
+1Cor,55,1 Corinthians,1. Korinther,1 Corinthios
+Cor,55,1 Corinthians,1. Korinther,1 Corinthios
+2Cor,56,2 Corinthians,2. Korinther,2 Corinthios
+2 Corinthians,56,2 Corinthians,2. Korinther,2 Corinthios
+2 Cor,56,2 Corinthians,2. Korinther,2 Corinthios
+Galatians,57,Galatians,Galater,Galatas
+Gal,57,Galatians,Galater,Galatas
+Eph,58,Ephesians,Epheser,Ephesios
+Ephesians,58,Ephesians,Epheser,Ephesios
+Phil,59,Philippians,Philipper,Philippenses
+Philippians,59,Philippians,Philipper,Philippenses
+Col,60,Colossians,Kolosser,Colossenses
+Colossians,60,Colossians,Kolosser,Colossenses
+Thess,61,1 Thessalonians,1. Thessalonicher,1 Thessalonicenses
+1 Thes,61,1 Thessalonians,1. Thessalonicher,1 Thessalonicenses
+1Thes,61,1 Thessalonians,1. Thessalonicher,1 Thessalonicenses
+1Thess,61,1 Thessalonians,1. Thessalonicher,1 Thessalonicenses
+1 Thessalonians,61,1 Thessalonians,1. Thessalonicher,1 Thessalonicenses
+1 Thess,61,1 Thessalonians,1. Thessalonicher,1 Thessalonicenses
+Thes,61,1 Thessalonians,1. Thessalonicher,1 Thessalonicenses
+2Thess,62,2 Thessalonians,2. Thessalonicher,2 Thessalonicenses
+2 Thessalonians,62,2 Thessalonians,2. Thessalonicher,2 Thessalonicenses
+2 Thes,62,2 Thessalonians,2. Thessalonicher,2 Thessalonicenses
+2 Thess,62,2 Thessalonians,2. Thessalonicher,2 Thessalonicenses
+2Thes,62,2 Thessalonians,2. Thessalonicher,2 Thessalonicenses
+1Tim,63,1 Timothy,1. Timotheus,1 Timotheum
+Tim,63,1 Timothy,1. Timotheus,1 Timotheum
+1 Tim,63,1 Timothy,1. Timotheus,1 Timotheum
+1 Timothy,63,1 Timothy,1. Timotheus,1 Timotheum
+2 Timothy,64,2 Timothy,2. Timotheus,2 Timotheum
+2 Tim,64,2 Timothy,2. Timotheus,2 Timotheum
+2Tim,64,2 Timothy,2. Timotheus,2 Timotheum
+Tit,65,Titus,Titus,Titum
+Titus,65,Titus,Titus,Titum
+Philemon,66,Philemon,Philemon,Philemonem
+Phlm,66,Philemon,Philemon,Philemonem
+Hebrews,67,Hebrews,Hebräer,Hebraeos
+Hebr,67,Hebrews,Hebräer,Hebraeos
+Heb,67,Hebrews,Hebräer,Hebraeos
+Jas,68,James,Jakobus,Iacobi
+James,68,James,Jakobus,Iacobi
+1 Peter,69,1 Peter,1. Petrus,1 Petri
+1Pet,69,1 Peter,1. Petrus,1 Petri
+1 Pet,69,1 Peter,1. Petrus,1 Petri
+Pet,69,1 Peter,1. Petrus,1 Petri
+2 Pet,70,2 Peter,2. Petrus,2 Petri
+2 Peter,70,2 Peter,2. Petrus,2 Petri
+2Pet,70,2 Peter,2. Petrus,2 Petri
+1Jn,71,1 John,1. Johannes,1 Ioannis
+1 John,71,1 John,1. Johannes,1 Ioannis
+1 Jn,71,1 John,1. Johannes,1 Ioannis
+Jn2,71,1 John,1. Johannes,1 Ioannis
+2Jn,72,2 John,2. Johannes,2 Ioannis
+2 Jn,72,2 John,2. Johannes,2 Ioannis
+3 Jn,73,3 John,3. Johannes,3 Ioannis
+3Jn,73,3 John,3. Johannes,3 Ioannis
+Jude,74,Jude,Judas,Iudae
+Revelation,75,Revelation,Offenbarung,Apocalypsis
+Apoc,75,Revelation,Offenbarung,Apocalypsis
+Apocalypse,75,Revelation,Offenbarung,Apocalypsis
+Rev,75,Revelation,Offenbarung,Apocalypsis
