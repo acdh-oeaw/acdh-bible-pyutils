@@ -27,6 +27,7 @@ def get_bible_lookup_map() -> dict:
         for row in reader:
             book = row.pop("book")
             bible_books[book] = row
+            bible_books[book]["order"] = int(bible_books[book]["order"])
     return bible_books
 
 
@@ -35,23 +36,55 @@ BIBLE_BOOK_LOOKUP = get_bible_lookup_map()
 
 def extract_book_name(reference: str) -> str:
     """
-    Extract book name from biblical reference string.
-
+    Extract the book name from a biblical reference string.
+    This function parses a biblical reference to extract just the book name portion,
+    handling various formats including numbered books (e.g., "1 Kings", "2 Samuel")
+    and books with multiple words. It also handles abbreviated book names that end
+    with a period.
     Args:
-        reference (str): Full biblical reference (e.g., "Lk. 19,41" or "2 Kings 2:23-24")
-
+        reference (str): A biblical reference string (e.g., "Genesis 1:1",
+                        "1 Kings 2:3", "Matt. 5:7")
     Returns:
-        str: Extracted book name
-
-    Examples:
-        >>> extract_book_name("Lk. 19,41")
-        'Lk.'
-        >>> extract_book_name("2 Kings 2:23-24")
-        '2 Kings'
+        str: The extracted book name with proper spacing and without trailing periods.
+             If no match is found, returns the original reference string.
     """
-    pattern = r"^([1-4]\s*)?([A-Za-z]+\.?(?:\s+[A-Za-z]+)?)"
+
+    pattern = r"^(\d+\s*)?([A-Za-z]+\.?(?:\s+[A-Za-z]+)?)"
     match = re.match(pattern, reference)
     if match:
         book = "".join(part for part in match.groups() if part)
-        return " ".join(book.split())
-    return ""
+        book = " ".join(book.split())
+        if book.endswith("."):
+            return book[:-1]
+        else:
+            return book
+    return reference
+
+
+def get_book_from_bibl_ref(bibl_ref: str) -> dict:
+    """
+    Retrieve book information from a biblical reference string.
+    Args:
+        bibl_ref (str): A biblical reference string containing a book name.
+    Returns:
+        dict: A dictionary containing book information with keys:
+            - order (int): The order/position of the book (0 if not found)
+            - title_eng (str): English title of the book
+            - title_deu (str): German title of the book
+            - title_lat (str): Latin title of the book
+    Note:
+        If the book is not found in BIBLE_BOOK_LOOKUP, returns a default
+        dictionary with order=0 and the original bibl_ref as all titles.
+    """
+
+    sane_title = extract_book_name(bibl_ref)
+    try:
+        book = BIBLE_BOOK_LOOKUP[sane_title]
+    except:
+        book = {
+            "order": 0,
+            "title_eng": bibl_ref,
+            "title_deu": bibl_ref,
+            "title_lat": bibl_ref,
+        }
+    return book
