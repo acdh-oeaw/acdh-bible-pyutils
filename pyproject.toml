@@ -1,6 +1,6 @@
 [project]
 name = "acdh-bible-pyutils"
-version = "0.1.0"
+version = "0.1.2"
 description = "Utility functions for dealing with biblicial references"
 readme = "README.md"
 authors = [
@@ -8,9 +8,6 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = []
-
-[project.scripts]
-acdh-bible-pyutils = "acdh_bible_pyutils:main"
 
 [build-system]
 requires = ["hatchling"]
@@ -26,6 +23,7 @@ dev = [
 [tool.hatch.build]
 include = [
     "acdh_bible_pyutils/*.csv",
+    "acdh_bible_pyutils/*.py"
 ]
 
 [tool.ruff]
