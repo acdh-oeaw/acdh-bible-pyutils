@@ -30,5 +30,3 @@ def get_bible_books() -> dict:
 
 
 BIBLE_BOOKS = get_bible_books
-
-
