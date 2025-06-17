@@ -1,0 +1,17 @@
+[project]
+name = "acdh-bible-pyutils"
+version = "0.1.0"
+description = "Utility functions for dealing with biblicial references"
+readme = "README.md"
+authors = [
+    { name = "csae8092", email = "p.andorfer@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+acdh-bible-pyutils = "acdh_bible_pyutils:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
