@@ -1,6 +1,7 @@
 import csv
 import re
 from pathlib import Path
+from typing import Dict
 
 
 def get_bible_lookup_map() -> dict:
@@ -61,7 +62,7 @@ def extract_book_name(reference: str) -> str:
     return reference
 
 
-def get_book_from_bibl_ref(bibl_ref: str) -> dict:
+def get_book_from_bibl_ref(bibl_ref: str) -> Dict:
     """
     Retrieve book information from a biblical reference string.
     Args:
@@ -88,3 +89,51 @@ def get_book_from_bibl_ref(bibl_ref: str) -> dict:
             "title_lat": bibl_ref,
         }
     return book
+
+
+def normalize_bible_refs(reference: str) -> dict:
+    """
+    Normalizes book info, chapter and verse numbers from biblical reference string.
+    Returns a dictionary containing all book information plus chapter and verse numbers.
+
+    Args:
+        reference (str): Biblical reference (e.g., "Lk. 19,41" or "2 Kings 2:23-24")
+
+    Returns:
+        dict: Dictionary containing:
+            - All keys from the book dictionary (order, title_eng, title_deu, title_lat)
+            - chapter (int): Chapter number
+            - verse_start (int): Starting verse number (0 if not present)
+            - verse_end (int): Ending verse number (0 if not present)
+
+    Examples:
+        >>> extract_chapter_verses("Lk. 19,41")
+        {
+            'order': 49,
+            'title_eng': 'Luke',
+            'title_deu': 'Lukas',
+            'title_lat': 'Lucas',
+            'chapter': 19,
+            'verse_start': 41,
+            'verse_end': 0
+        }
+    """
+    result = get_book_from_bibl_ref(reference)
+
+    # Remove book name if present
+    reference = re.sub(r"^(?:\d+\s+)?[A-Za-z]+\.?\s*(?:[A-ZaZ]+\s*)?", "", reference)
+
+    # Pattern for different formats
+    pattern = r"(\d+)(?:[\s,:]+(\d+))?(?:\s*[-–]\s*(\d+))?"
+
+    match = re.search(pattern, reference)
+    if match:
+        result["chapter"] = int(match.group(1))
+        result["verse_start"] = int(match.group(2)) if match.group(2) else 0
+        result["verse_end"] = int(match.group(3)) if match.group(3) else 0
+    else:
+        result["chapter"] = 0
+        result["verse_start"] = 0
+        result["verse_end"] = 0
+
+    return result
