@@ -1,3 +1,5 @@
+[![Test](https://github.com/acdh-oeaw/acdh-bible-pyutils/actions/workflows/tests.yml/badge.svg)](https://github.com/acdh-oeaw/acdh-bible-pyutils/actions/workflows/tests.yml)
+[![PyPI version](https://badge.fury.io/py/acdh-bible-pyutils.svg)](https://badge.fury.io/py/acdh-bible-pyutils) 
 # acdh-bible-pyutils
 
 Utility functions for dealing with biblicial references
