@@ -4,7 +4,7 @@ version = "0.2"
 description = "Utility functions for dealing with biblicial references"
 readme = "README.md"
 authors = [
-    { name = "csae8092", email = "p.andorfer@gmail.com" }
+    { name = "Peter Andorfer", email = "peter.andorfer@oeaw.ac.at" }
 ]
 requires-python = ">=3.12"
 dependencies = []
